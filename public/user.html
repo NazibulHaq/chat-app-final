@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1><span id="user-username"></span></h1></header>
+  <div class="container">
+    <div class="dashboard">
+      <div class="sidebar">
+        <h2>My Chats</h2>
+        <ul id="rooms-list"></ul>
+        <div class="logout-container">
+          <button id="logout" class="logout-btn">
+            <span class="logout-icon">&#10148;</span> Log out
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <h2 id="room-title"></h2>
+        <div id="chat-area">
+          <div id="messages"></div>
+          <form id="message-form">
+            <input id="message-input" placeholder="Message to admin..." required />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
