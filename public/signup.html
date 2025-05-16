@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-bg">
+  <div class="auth-card">
+    <div class="auth-title">Practical Assessment Platform</div>
+    <div class="auth-subtitle">Connect with your team over the local network</div>
+    <div class="auth-tabs">
+      <button class="auth-tab" onclick="window.location='login.html'">Login</button>
+      <button class="auth-tab active" onclick="window.location='signup.html'">Sign Up</button>
+    </div>
+    <form class="auth-form" action="/signup" method="post">
+      <input name="username" placeholder="Enter your username" required />
+      <input name="password" type="password" placeholder="Enter your password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>

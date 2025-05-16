@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="macro.css">
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+  <header><h1><span id="user-username"></span></h1></header>
+  <div class="container">
+    <div class="dashboard">
+      <div class="sidebar">
+        <h2>My Chats</h2>
+        <ul id="rooms-list"></ul>
+        <div class="logout-container">
+          <button id="logout" class="logout-btn">
+            <span class="logout-icon">&#10148;</span> Log out
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <h2 id="room-title"></h2>
+        <div id="chat-area">
+          <div id="messages"></div>
+          <form id="message-form">
+            <div id="message-input" class="message-input" contenteditable="true" spellcheck="false"></div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="chat.js"></script>
+  <script type="module" src="macro.js"></script>
+  <script type="module" src="timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1746978144117",
+    "keyword": "greeting",
+    "body": "Hi there, How are you? It is nice to see you here!",
+    "created_by": 1,
+    "created_at": "2025-05-11T15:42:24.117Z"
+  },
+  {
+    "id": "1746978190486",
+    "keyword": "close",
+    "body": "Thank you for chatting with us. Have a great day!",
+    "created_by": 1,
+    "created_at": "2025-05-11T15:43:10.486Z"
+  },
+  {
+    "id": "1747128161415",
+    "keyword": "Buddy",
+    "body": "Buddy Where Are you?",
+    "created_by": 1,
+    "created_at": "2025-05-13T09:22:41.415Z"
+  },
+  {
+    "id": "1747131375724",
+    "keyword": "Test",
+    "body": "Hi, I am here to test it out.",
+    "created_by": 1,
+    "created_at": "2025-05-13T10:16:15.724Z"
+  },
+  {
+    "id": "1747132108632",
+    "keyword": "Macro",
+    "body": "Hi, my name is Farah.\n\nI am here for a test purpose.",
+    "created_by": 1,
+    "created_at": "2025-05-13T10:28:28.632Z"
+  },
+  {
+    "id": "1747136338505",
+    "keyword": "15% Profit Share",
+    "body": "\"Upon achieving a 5% profit in the FundedNext Account, traders become eligible for a 15% profit share from the Challenge Account when withdrawing Payouts. \n\nAdditional details on this can be found in this article, kindly check it out!\"",
+    "created_by": 1,
+    "created_at": "2025-05-13T11:38:58.505Z"
+  }
+]

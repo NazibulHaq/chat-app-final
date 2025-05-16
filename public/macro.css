@@ -1,0 +1,124 @@
+.macro-button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.macro-button:hover {
+  color: #333;
+}
+
+.macro-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 400px;
+}
+
+.macro-popup.active {
+  display: block;
+}
+
+.macro-popup h2 {
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.macro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.macro-form input,
+.macro-form textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.macro-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.macro-form button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.macro-form button:hover {
+  background: #0056b3;
+}
+
+.macro-dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.macro-dropdown.active {
+  display: block;
+}
+
+.macro-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.macro-item:last-child {
+  border-bottom: none;
+}
+
+.macro-item:hover {
+  background: #f5f5f5;
+}
+
+.macro-keyword {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.macro-preview {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.macro-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.macro-overlay.active {
+  display: block;
+} 

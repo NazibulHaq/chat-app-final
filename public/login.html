@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-bg">
+  <div class="auth-card">
+    <div class="auth-title">Practical Assessment Platform</div>
+    <div class="auth-subtitle">Connect with your team over the local network</div>
+    <div class="auth-tabs">
+      <button class="auth-tab active" onclick="window.location='login.html'">Login</button>
+      <button class="auth-tab" onclick="window.location='signup.html'">Sign Up</button>
+    </div>
+    <form class="auth-form" action="/login" method="post">
+      <input name="username" placeholder="Enter your username" required />
+      <input name="password" type="password" placeholder="Enter your password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p style="margin-top:18px;color:#b0b8c1;">New user?
+      <a class="auth-link" href="/signup.html">Sign up here</a>
+    </p>
+  </div>
+</body>
+</html>
